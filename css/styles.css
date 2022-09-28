@@ -204,6 +204,12 @@ button {
   text-align: left;
   max-width: 270px;
 }
+.features-item-svg {
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
 .features-subtitle {
   font-weight: var(--bold-font-weight);
   font-size: 14px;
@@ -272,8 +278,43 @@ button {
   text-align: center;
   margin-top: 10px;
 }
+.soc-links-list {
+  display: flex;
+}
+.team-soc-links {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .team-content {
   padding: 30px 0px;
+}
+.clients {
+}
+.clients-title {
+  font-weight: var(--bold-font-weight);
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.clients-list {
+  display: flex;
+  gap: 30px;
+}
+.clients-item {
+  background-color: #f5f4fa;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.clients-link {
+}
+.clients-svg {
 }
 /* < -------------------------------    FOOTER    ------------------- > */
 .footer {
