@@ -110,10 +110,6 @@ button {
 }
 .header-link:focus,
 .header-link:hover,
-.header-mail:hover,
-.header-mail:focus .header-envelope,
-.header-tel:focus .header-smartphone,
-.header-tel:hover,
 .footer-tel:focus,
 .footer-tel:hover,
 .footer-mail:hover,
@@ -121,7 +117,12 @@ button {
 .footer-maps:hover,
 .footer-maps:focus {
   color: var(--accent-color);
-  fill: var(--accent-color);
+}
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:focus,
+.header-tel:hover {
+  color: var(--accent-color);
 }
 
 .btn:focus,
@@ -212,7 +213,7 @@ button {
   height: 120px;
   justify-content: center;
   align-items: center;
-  background-color: #f5f4fa;
+  background-color: var(--third-background-color);
   margin-bottom: 30px;
 }
 .features-list {
@@ -224,7 +225,7 @@ button {
   max-width: 270px;
 }
 .features-item-svg {
-  background-color: #f5f4fa;
+  background-color: var(--third-background-color);
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
@@ -284,7 +285,7 @@ button {
 }
 .team-item {
   width: calc((100%-90px) / 4);
-  background-color: #ffffff;
+  background-color: var(--main-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -323,7 +324,7 @@ button {
 }
 .team-soc-links:hover,
 .team-soc-links:focus {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   color: var(--main-color);
 }
 .team-soc-links-svg {
@@ -333,8 +334,7 @@ button {
 .team-content {
   padding: 30px 0px;
 }
-.clients {
-}
+/* < -------------------------------    CLIENTS    ------------------- > */
 .clients-title {
   font-weight: var(--bold-font-weight);
   font-size: 36px;
